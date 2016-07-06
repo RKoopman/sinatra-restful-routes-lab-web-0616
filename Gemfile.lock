@@ -29,7 +29,7 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
-    coderay (1.1.0)
+    coderay (1.1.1)
     diff-lcs (1.2.5)
     i18n (0.7.0)
     json (1.8.3)
@@ -45,8 +45,6 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    pry-nav (0.2.4)
-      pry (>= 0.9.10, < 0.11.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -104,7 +102,6 @@ DEPENDENCIES
   capybara
   database_cleaner!
   pry
-  pry-nav
   rack-test
   rake
   require_all
@@ -115,4 +112,4 @@ DEPENDENCIES
   tux
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
